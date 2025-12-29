@@ -26,7 +26,7 @@ export const trackLead = (
   }
 
   if (typeof window !== 'undefined' && (window as any).ym) {
-    const YM_ID = Number(process.env.NEXT_PUBLIC_YM_ID) || 105783207
+    const YM_ID = process.env.NEXT_PUBLIC_YM_ID ? Number(process.env.NEXT_PUBLIC_YM_ID) : 105783207;
     (window as any).ym && (window as any).ym(YM_ID, 'reachGoal', 'messenger_click', { platform, action, location })
   }
 }
