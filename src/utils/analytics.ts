@@ -2,7 +2,7 @@ export type MessengerPlatform = 'telegram' | 'whatsapp' | 'wechat' | 'email'
 export type ClickLocation = 'header' | 'hero' | 'contact_section' | 'footer' | 'floating'
 export type InteractionType = 'click' | 'hover' | 'copy'
 
-const YANDEX_METRIKA_ID = 105783207
+const YANDEX_METRIKA_ID = parseInt(process.env.NEXT_PUBLIC_YM_ID || '105783207', 10)
 
 export const trackLead = (
   platform: MessengerPlatform,
