@@ -11,6 +11,7 @@ module.exports = {
         'brand-blue': '#4A90E2',
         'brand-dark': '#1A1A2E',
         'brand-light': '#E8F4F8',
+        'brand-yellow': '#FFD93D',
       },
       keyframes: {
         'fade-in': {
