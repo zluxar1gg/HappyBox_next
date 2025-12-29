@@ -1,6 +1,6 @@
 import React from 'react'
-import { CalculatorClient } from '../components/CalculatorClient'
-import { Tracking } from '../components/Tracking'
+import { CalculatorClient } from '../../components/CalculatorClient'
+import { Tracking } from '../../components/Tracking'
 
 export default function HomeRu() {
   return (
